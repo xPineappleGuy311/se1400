@@ -8,3 +8,7 @@ header{
     text-color: #FFFFFF;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+header h1{
+    line-height: 140%;
+    padding: .5rem;
+}
