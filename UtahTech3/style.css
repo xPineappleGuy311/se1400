@@ -5,7 +5,7 @@ body{
     background-image: linear-gradient(to bottom, #eeeeee, #ffffff);
     background-attachment: fixed;
 }
-div header{
+header{
     background-color: #003058;
     color: #FFFFFF;
     font-family: Georgia, 'Times New Roman', Times, serif;
