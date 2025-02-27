@@ -62,18 +62,18 @@ main{
 #homehero{
     background-image: url("../homehero.jpg");
     background-size: cover;
-    height: 300px;
+    height: 600px;
     background-position: center;
 }
 #studenthero{
     background-image: url("../studenthero.jpg");
-    height: 300px;
+    height: 600px;
     background-size: cover;
     background-position: center;
 }
 #facultyhero{
     background-image: url("../facultyhero.jpg");
-    height: 300px;
+    height: 600px;
     background-size: cover;
     background-position: center;
 }
