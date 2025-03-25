@@ -5,7 +5,7 @@
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     }
-nav {
+nav a{
     width: fit-content;
     height: 50px;
     color: aqua;
