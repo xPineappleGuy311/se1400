@@ -10,3 +10,11 @@ nav a{
     height: 50px;
     color: aqua;
 }
+#header {
+    background-color: rgba(255,255,255,0.3);
+    grid-column-start: auto;
+}
+#main {
+    background-color: rgba(255,255,255,0.3);
+    grid-column-start: 1
+}
