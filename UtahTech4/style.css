@@ -83,12 +83,16 @@ main{
     height: 600px;
     background-size: cover;
     background-position: center;
+    grid-row: 3 / 4;
+    grid-column: 2 / -2;
 }
 #facultyhero{
     background-image: url("../facultyhero.jpg");
     height: 600px;
     background-size: cover;
     background-position: center;
+    grid-row: 3 / 4;
+    grid-column: 2 / -2;
 }
 nav a {
     text-decoration: none;
