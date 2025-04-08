@@ -24,6 +24,7 @@ header h1{
     margin: 0;
     text-decoration: none;
     color: #FFFFFF;
+
 }
 nav{
     font-weight: bold;
@@ -67,6 +68,7 @@ main{
     padding-right: 2rem;
     grid-row: 4 / 5;
     grid-column: 2 / -2;
+    background: #FFFFFF;
 }
 #homehero{
     background-image: url("../homehero.jpg");
