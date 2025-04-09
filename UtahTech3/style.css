@@ -64,19 +64,19 @@ main{
 #homehero {
     height: 300px;
     background-size: cover;
-    background-image: url(../homehero.jpg);
+    background-image: url("../homehero.jpg");
     background-position: center;
 }
 #studenthero {
     height: 300px;
     background-size: cover;
-    background-image: url(../studenthero.jpg);
+    background-image: url("../studenthero.jpg");
     background-position: center;
 }
 #facultyhero {
     height: 300px;
     background-size: cover;
-    background-image: url(../facultyhero.jpg);
+    background-image: url("../facultyhero.jpg");
     background-position: center;
 }
 nav a {
