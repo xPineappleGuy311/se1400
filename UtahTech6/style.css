@@ -170,13 +170,68 @@ nav ul {
   
     nav {
       grid-row: 2 / 3;
-      grid-column: 1 / -1; /* or 1 / 9 */
+      grid-column: 1 / -1;
     }
   
     #homehero,
     #studenthero,
     #facultyhero {
       display: none;
+    }
+  }
+form {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 200px 1fr;
+    gap: 0.75rem;
+    width: 100%;
+  }
+  form input,
+  form textarea {
+    font-size: 1rem;
+    padding: 10px;
+    color: #666666;
+    background-color: #fafafa;
+    border: none;
+  }
+  form input:focus,
+  form textarea:focus {
+    outline: none;
+    background-color: #f0f0f0;
+  }
+  form label {
+    padding: 10px;
+    text-align: right;
+  }
+  #mySubmit {
+    width: 10rem;
+    grid-column: 2 / 3;
+  }
+  #alumnihero {
+    background-image: url('alumnihero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* adjust as needed */
+    width: 100%;
+  }
+  @media only screen and (max-width: 1100px) {
+    #alumnihero {
+      background-size: contain;
+      height: 200px;
+    }
+  }
+  
+  @media only screen and (max-width: 900px) {
+    #alumnihero {
+      background-size: contain;
+      height: 180px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    #alumnihero {
+      background-size: contain;
+      height: 150px;
     }
   }
   
