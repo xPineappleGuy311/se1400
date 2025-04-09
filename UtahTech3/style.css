@@ -17,6 +17,10 @@ header h1{
 nav{
     font-weight: bold;
     background-color: lightgray;
+    padding-top: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 2rem;
 }
 h2{
     color: #424242;
@@ -50,3 +54,33 @@ h1 {
     background-origin: content-box;
     margin-bottom: 0;
 }
+h3{
+    color: #003058;
+}
+main{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+#homehero {
+    height: 300px;
+    background-size: cover;
+    background-image: url(../homehero.jpg);
+    background-position: center;
+}
+#studenthero {
+    height: 300px;
+    background-size: cover;
+    background-image: url(../studenthero.jpg);
+    background-position: center;
+}
+#facultyhero {
+    height: 300px;
+    background-size: cover;
+    background-image: url(../facultyhero.jpg);
+    background-position: center;
+}
+nav a {
+    text-decoration: none;
+}
+
+
