@@ -216,7 +216,7 @@ form {
     grid-column: 2 / 3;
   }
   #alumnihero {
-    background-image: url('alumnihero.jpg');
+    background-image: url("../alumnihero.jpg");
     background-size: cover;
     background-position: center;
     height: 300px; /* adjust as needed */
