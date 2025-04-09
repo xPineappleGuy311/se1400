@@ -85,6 +85,14 @@ main{
     grid-row: 3 / 4;
     grid-column: 2 / -2;
 }
+#alumnihero {
+    height: 300px;
+    background-size: cover;
+    background-image: url("../alumnihero.jpg");
+    background-position: center;
+    grid-row: 3 / 4;
+    grid-column: 2 / -2;
+}
 #facultyhero {
     height: 300px;
     background-size: cover;
