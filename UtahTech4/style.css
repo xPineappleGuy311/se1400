@@ -13,6 +13,8 @@ div header{
     background-color: #003058;
     color: #FFFFFF;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    grid-row: 1 / 2;
+    grid-column: 2 / -2;
 }
 header h1{
     line-height: 140%;
