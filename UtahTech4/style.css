@@ -19,14 +19,20 @@ div header{
 header h1{
     line-height: 140%;
     padding: .5rem;
+    margin: 0;
 }
 nav{
     font-weight: bold;
-    background-color: lightgray;
-    padding-top: 0.5rem;
-    padding-right: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-left: 2rem;
+    background-color: #424242;
+    grid-row: 2 / 3;
+    grid-column: 2 / -2;
+    position: sticky;
+    top: 0;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-flow: row nowrap;
+    list-style-type: none;
 }
 h2{
     color: #424242;
@@ -44,6 +50,8 @@ footer{
     font-size: .70rem;
     font-style: italic;
     text-align: center;
+    grid-row: 5 / 6;
+    grid-column: 2 / -2;
 }
 #wrapper{
     display: grid;
@@ -62,27 +70,53 @@ h3{
 main{
     padding-left: 2rem;
     padding-right: 2rem;
+    grid-row: 4 / 5;
+    grid-column: 2 / -2;
+    background: #FFFFFF;
 }
 #homehero {
     height: 300px;
     background-size: cover;
     background-image: url("../homehero.jpg");
     background-position: center;
+    grid-row: 3 / 4;
+    grid-column: 2 / -2;
 }
 #studenthero {
     height: 300px;
     background-size: cover;
     background-image: url("../studenthero.jpg");
     background-position: center;
+    grid-row: 3 / 4;
+    grid-column: 2 / -2;
 }
 #facultyhero {
     height: 300px;
     background-size: cover;
     background-image: url("../facultyhero.jpg");
     background-position: center;
+    grid-row: 3 / 4;
+    grid-column: 2 / -2;
 }
 nav a {
     text-decoration: none;
+    color: #FFFFFF;
+    padding: 1rem 0rem;
+    display: block;
+    text-align: center;
 }
-
+header a {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+main img {
+    float: right;
+    padding-left: 2rem;
+}  
+nav ul li {
+    width: 100%;
+}
+nav a:hover {
+    background-color: #BA1C21;
+  }
 
