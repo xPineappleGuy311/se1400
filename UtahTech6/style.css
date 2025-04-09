@@ -75,7 +75,7 @@ main{
     background-image: url("../homehero.jpg");
     background-position: center;
     grid-row: 3 / 4;
-    grid-column: 1 / -1;
+    grid-column: 2 / -2;
 }
 #studenthero {
     height: 300px;
@@ -83,7 +83,7 @@ main{
     background-image: url("../studenthero.jpg");
     background-position: center;
     grid-row: 3 / 4;
-    grid-column: 1 / -1;
+    grid-column: 2 / -2;
 }
 #facultyhero {
     height: 300px;
@@ -91,7 +91,7 @@ main{
     background-image: url("../facultyhero.jpg");
     background-position: center;
     grid-row: 3 / 4;
-    grid-column: 1 / -1;
+    grid-column: 2 / -2;
 }
 nav a {
     text-decoration: none;
