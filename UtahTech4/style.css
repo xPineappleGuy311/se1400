@@ -28,11 +28,6 @@ nav{
     grid-column: 2 / -2;
     position: sticky;
     top: 0;
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-    flex-flow: row nowrap;
-    list-style-type: none;
 }
 h2{
     color: #424242;
@@ -118,5 +113,12 @@ nav ul li {
 }
 nav a:hover {
     background-color: #BA1C21;
-  }
+}
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-flow: row nowrap;
+    list-style-type: none;
+}
 
