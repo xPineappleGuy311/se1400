@@ -34,7 +34,7 @@ body {
 .main {
   grid-column: 2 / 3;
   grid-row: 2 / 4;
-  background-color: #4748A4;
+  background: radial-gradient(#e66465, #9198e5);
 }
 
 .aside {
